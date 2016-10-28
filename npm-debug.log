@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.5
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose stack Error: No version provided
+6 verbose stack     at /usr/lib/node_modules/npm/lib/publish.js:52:36
+6 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+6 verbose stack     at checkBinReferences_ (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+6 verbose stack     at final (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+6 verbose stack     at then (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+6 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:311:12
+6 verbose stack     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+6 verbose stack     at fs.js:272:14
+6 verbose stack     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:43:10
+6 verbose stack     at Object.oncomplete (fs.js:108:15)
+7 verbose cwd /home/osc/Desktop/grunt-first-plugin
+8 error Linux 4.2.0-35-generic
+9 error argv "node" "/usr/bin/npm" "publish"
+10 error node v0.10.37
+11 error npm  v3.10.5
+12 error No version provided
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
